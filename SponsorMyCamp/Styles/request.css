@@ -1,0 +1,139 @@
+﻿
+.content
+{
+    margin-top:10px;
+    width:1200px;
+  
+}
+.word
+{
+    font-size:x-large;
+    font-weight:bold;
+    margin-top:5px;
+}
+.drop
+{
+    
+    font-size:large;
+    padding:5px 10px 5px 10px;
+    margin-top:13px;
+    border:1px solid #DFD6D4;
+    border-radius: 8px;
+    margin-right:300px;
+   
+   
+}
+
+.saveBtn
+{
+    background-color:#b20712;
+    font-size:large;
+    font-weight:bold;
+    padding:7px 20px 7px 20px;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    margin-left:15px;
+    margin-top:8px;
+}
+
+#sendBtn
+{
+  text-decoration: none;
+  background-color: #C94B34;
+  color: white;
+  font-size:large;
+  font-weight:bolder;
+  padding:10px 20px 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #C94B34;
+  margin-left:695px;
+  
+}
+.requestContent
+{
+    width:650px;
+    height:330px;
+    border:1px solid black;
+    border-radius: 4px;
+    margin-top:5px;
+   
+}
+.side
+{
+    float:right;
+    margin-right:200px;
+    margin-top:-550px;
+    width:510px;
+}
+.head
+{
+    margin-top:30px;
+    font-size:xx-large;
+    font-weight:bold;
+    background-color:#b20712;
+    border:1px solid #b20712;
+    padding:10px 151px 10px 151px;
+    color:White;
+    
+}
+.list
+{
+   margin-top:-15px;
+   width:350px;
+   background-color:#fff7f7;  
+     
+}
+.list label
+{
+    margin-left:50px;
+}
+    
+.td0
+{
+    background-color:#BF5C31;
+    color:White;
+    text-align:center;
+    font-weight:bold;
+    font-size:x-large;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+    
+}
+.checkbox
+{
+    padding-right:5px;
+    padding-left:2px;
+    margin-left:40px;
+}
+.td1 
+{
+
+    text-align:center;
+    font-weight:bold;
+    font-size:large; 
+    text-align:left;
+    border-top:1px solid ##d3d1d1;
+    border-bottom:1px solid #d3d1d1;
+  
+    
+}
+.tdAll
+{
+    text-align:center;
+    font-weight:bold;
+    font-size:large; 
+    text-align:left
+}
+
+.header
+{
+    fonrt-weight:bold;
+    margin-left:100px;
+}
+.hightlight
+{
+    background-color:#FEB888;
+    font-weight:bold;
+}

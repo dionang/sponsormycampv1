@@ -1,0 +1,10 @@
+C:\Users\ZhenDan\Desktop\SponsorMyCamp\SponsorMyCamp\bin\SponsorMyCamp.dll
+C:\Users\ZhenDan\Desktop\SponsorMyCamp\SponsorMyCamp\bin\SponsorMyCamp.pdb
+C:\Users\ZhenDan\Desktop\SponsorMyCamp\SponsorMyCamp\obj\Debug\SponsorMyCamp.dll
+C:\Users\ZhenDan\Desktop\SponsorMyCamp\SponsorMyCamp\obj\Debug\SponsorMyCamp.pdb
+C:\Users\ZhenDan\Desktop\SponsorMyCamp\SponsorMyCamp\obj\Debug\SponsorMyCamp.csprojResolveAssemblyReference.cache
+C:\Users\ZhenDan\Desktop\SponsorMyCamp - Version 1\SponsorMyCamp\bin\SponsorMyCamp.dll
+C:\Users\ZhenDan\Desktop\SponsorMyCamp - Version 1\SponsorMyCamp\bin\SponsorMyCamp.pdb
+C:\Users\ZhenDan\Desktop\SponsorMyCamp - Version 1\SponsorMyCamp\obj\Debug\SponsorMyCamp.csprojResolveAssemblyReference.cache
+C:\Users\ZhenDan\Desktop\SponsorMyCamp - Version 1\SponsorMyCamp\obj\Debug\SponsorMyCamp.dll
+C:\Users\ZhenDan\Desktop\SponsorMyCamp - Version 1\SponsorMyCamp\obj\Debug\SponsorMyCamp.pdb

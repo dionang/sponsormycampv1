@@ -1,0 +1,138 @@
+﻿body
+{
+    width:1345px;
+    }
+.list
+{
+   margin-top:-15px;
+   width:400px;
+   background-color:#f9f9f9;  
+     
+}
+.list label
+{
+    margin-left:50px;
+}
+    
+.td0
+{
+    background-color:#b20712;
+    color:White;
+    text-align:center;
+    font-weight:bold;
+    font-size:x-large;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+    
+}
+.checkbox
+{
+    padding-right:5px;
+    padding-left:2px;
+    margin-left:40px;
+}
+.td1 
+{
+
+    text-align:center;
+    font-weight:bold;
+    font-size:large; 
+    text-align:left;
+    border-top:1px solid ##d3d1d1;
+    border-bottom:1px solid #d3d1d1;
+  
+    
+}
+.tdAll
+{
+    text-align:center;
+    font-weight:bold;
+    font-size:large; 
+    text-align:left
+}
+
+.header
+{
+    fonrt-weight:bold;
+    margin-left:100px;
+}
+.status
+{
+    height:460px;
+    width:680px;
+    margin-left:100px;
+    border:1px solid black;
+    border-radius:4px;
+    overflow:auto;
+}
+
+.table caption
+{
+    font-size:x-large;
+    background-color:#C94B34;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
+.table thead
+{
+    font-size:large;
+    text-align:center;
+    font-weight:bold;
+}
+.t1
+{
+    width:150px;
+    font-size:medium;
+    font-weight:bold;
+}
+.t2
+{
+    text-align:center;
+    font-size:medium;
+    font-weight:bold;
+}
+.t3
+{
+    text-align:center;
+    font-size:medium;
+    font-weight:bold;
+}
+.t4
+{
+    text-align:center;
+    font-size:medium;
+    font-weight:bold;
+}
+.statusDrop
+{
+    border-radius:4px;
+    font-weight:bold;
+    padding-top:5px;
+    font-size:medium;
+    padding-bottom:5px;
+     width:140px;
+}
+.typeDrop
+{
+    border-radius:4px;
+    font-weight:bold;
+    font-size:medium;
+    padding-top:5px;
+    padding-bottom:5px;
+     width:140px;
+  
+}
+.find
+{
+    border-radius:4px;
+    background-color:#b20712;
+    color:White;
+}
+.find1
+{
+     border-radius:4px;
+     background-color:#ef6d21;
+     color:White;
+}

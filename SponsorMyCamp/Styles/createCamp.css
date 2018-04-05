@@ -1,0 +1,47 @@
+﻿body
+{
+    width:1345px;
+}
+.content
+{
+    margin-left:400px;
+    border:1px solid #dcdee2;
+    width:600px;
+    height:1200px;
+    margin-top:20px;
+}
+.header
+{
+    color:White;
+    background-color:#b20712;
+    font-size:xx-large;
+    font-weight:bold;
+    text-align:center;
+    width:600px;
+}
+.buttonSend
+{
+    text-decoration: none;
+    background-color:#b20712;
+    font-size:large;
+    font-weight:bolder;
+    padding:9px 20px 9px 20px;
+    color:white;
+    border: 1px solid #b20712;
+    border-radius: 8px;
+    
+    
+}
+
+.back
+{
+    background-color:#b20712;
+    font-size:large;
+    font-weight:bolder;
+    padding:10px 20px 10px 20px;
+    color:white;
+    border:none;
+    border-radius: 8px;
+   
+    
+}

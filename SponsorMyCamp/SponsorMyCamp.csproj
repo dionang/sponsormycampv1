@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{633BC9AB-A904-44DE-A509-0B2A6455B41B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SponsorMyCamp</RootNamespace>
+    <AssemblyName>SponsorMyCamp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Add New Camp Task.aspx" />
+    <Content Include="Add New Camp Task2.aspx" />
+    <Content Include="Add New Camp.aspx" />
+    <Content Include="contract.aspx" />
+    <Content Include="contractTask.aspx" />
+    <Content Include="contractTask2.aspx" />
+    <Content Include="editCampTask.aspx" />
+    <Content Include="editCampTask2.aspx" />
+    <Content Include="faq.aspx" />
+    <Content Include="faqTask.aspx" />
+    <Content Include="faqTask2.aspx" />
+    <Content Include="first.aspx" />
+    <Content Include="firstTask.aspx" />
+    <Content Include="firstTask2.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="HomeTask.aspx" />
+    <Content Include="HomeTask2.aspx" />
+    <Content Include="Image\003.png" />
+    <Content Include="Image\128.png" />
+    <Content Include="Image\128days.jpg" />
+    <Content Include="Image\3days.jpg" />
+    <Content Include="Image\attach.png" />
+    <Content Include="Image\background.jpg" />
+    <Content Include="Image\camp.png" />
+    <Content Include="Image\capitalland.png" />
+    <Content Include="Image\collateral.png" />
+    <Content Include="Image\contract.png" />
+    <Content Include="Image\delete.png" />
+    <Content Include="Image\faq.png" />
+    <Content Include="Image\food.png" />
+    <Content Include="Image\home.png" />
+    <Content Include="Image\inbox.png" />
+    <Content Include="Image\logo1.png" />
+    <Content Include="Image\logout.png" />
+    <Content Include="Image\manage.png" />
+    <Content Include="Image\mango.jpg" />
+    <Content Include="Image\Monetary %282%29.png" />
+    <Content Include="Image\others.png" />
+    <Content Include="Image\prizes.png" />
+    <Content Include="Image\product.png" />
+    <Content Include="Image\request.png" />
+    <Content Include="Image\search.png" />
+    <Content Include="Image\Sudio.jpg" />
+    <Content Include="Image\sudioMap.png" />
+    <Content Include="Image\teaparty.jpg" />
+    <Content Include="Image\teapartyMap.png" />
+    <Content Include="Image\voucher.png" />
+    <Content Include="inbox.aspx" />
+    <Content Include="inboxTask.aspx" />
+    <Content Include="inboxTask2.aspx" />
+    <Content Include="request.aspx" />
+    <Content Include="requestTask.aspx" />
+    <Content Include="requestTask2.aspx" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap2.js" />
+    <Content Include="Scripts\header.js" />
+    <Content Include="Scripts\jquery.confirm.js" />
+    <Content Include="Scripts\jquery.confirm.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="search.aspx" />
+    <Content Include="searchTask.aspx" />
+    <Content Include="searchTask2.aspx" />
+    <Content Include="Styles\createCamp.css" />
+    <Content Include="Styles\Home.css" />
+    <Content Include="Styles\request.css" />
+    <Content Include="Styles\search.css" />
+    <Content Include="Styles\sideTab.css" />
+    <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\Content.css" />
+    <Content Include="Image\Logo.png" />
+    <Content Include="Styles\LoginMaster.css" />
+    <Content Include="Styles\Master.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="test.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add New Camp Task.aspx.cs">
+      <DependentUpon>Add New Camp Task.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add New Camp Task.aspx.designer.cs">
+      <DependentUpon>Add New Camp Task.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add New Camp Task2.aspx.cs">
+      <DependentUpon>Add New Camp Task2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add New Camp Task2.aspx.designer.cs">
+      <DependentUpon>Add New Camp Task2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add New Camp.aspx.cs">
+      <DependentUpon>Add New Camp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add New Camp.aspx.designer.cs">
+      <DependentUpon>Add New Camp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contract.aspx.cs">
+      <DependentUpon>contract.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contract.aspx.designer.cs">
+      <DependentUpon>contract.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contractTask.aspx.cs">
+      <DependentUpon>contractTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contractTask.aspx.designer.cs">
+      <DependentUpon>contractTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contractTask2.aspx.cs">
+      <DependentUpon>contractTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contractTask2.aspx.designer.cs">
+      <DependentUpon>contractTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editCampTask.aspx.cs">
+      <DependentUpon>editCampTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editCampTask.aspx.designer.cs">
+      <DependentUpon>editCampTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editCampTask2.aspx.cs">
+      <DependentUpon>editCampTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editCampTask2.aspx.designer.cs">
+      <DependentUpon>editCampTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faqTask.aspx.cs">
+      <DependentUpon>faqTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faqTask.aspx.designer.cs">
+      <DependentUpon>faqTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faqTask2.aspx.cs">
+      <DependentUpon>faqTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faqTask2.aspx.designer.cs">
+      <DependentUpon>faqTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="first.aspx.cs">
+      <DependentUpon>first.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="first.aspx.designer.cs">
+      <DependentUpon>first.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="firstTask.aspx.cs">
+      <DependentUpon>firstTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="firstTask.aspx.designer.cs">
+      <DependentUpon>firstTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="firstTask2.aspx.cs">
+      <DependentUpon>firstTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="firstTask2.aspx.designer.cs">
+      <DependentUpon>firstTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Header.Master.cs">
+      <DependentUpon>Header.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Header.Master.designer.cs">
+      <DependentUpon>Header.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderTask.Master.cs">
+      <DependentUpon>HeaderTask.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderTask.Master.designer.cs">
+      <DependentUpon>HeaderTask.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderTAsk2.Master.cs">
+      <DependentUpon>HeaderTAsk2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderTAsk2.Master.designer.cs">
+      <DependentUpon>HeaderTAsk2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeTask.aspx.cs">
+      <DependentUpon>HomeTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeTask.aspx.designer.cs">
+      <DependentUpon>HomeTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeTask2.aspx.cs">
+      <DependentUpon>HomeTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeTask2.aspx.designer.cs">
+      <DependentUpon>HomeTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inbox.aspx.cs">
+      <DependentUpon>inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inbox.aspx.designer.cs">
+      <DependentUpon>inbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inboxTask.aspx.cs">
+      <DependentUpon>inboxTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inboxTask.aspx.designer.cs">
+      <DependentUpon>inboxTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inboxTask2.aspx.cs">
+      <DependentUpon>inboxTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inboxTask2.aspx.designer.cs">
+      <DependentUpon>inboxTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="request.aspx.cs">
+      <DependentUpon>request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="request.aspx.designer.cs">
+      <DependentUpon>request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="requestTask.aspx.cs">
+      <DependentUpon>requestTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="requestTask.aspx.designer.cs">
+      <DependentUpon>requestTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="requestTask2.aspx.cs">
+      <DependentUpon>requestTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="requestTask2.aspx.designer.cs">
+      <DependentUpon>requestTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchTask.aspx.cs">
+      <DependentUpon>searchTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchTask.aspx.designer.cs">
+      <DependentUpon>searchTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchTask2.aspx.cs">
+      <DependentUpon>searchTask2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchTask2.aspx.designer.cs">
+      <DependentUpon>searchTask2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Header.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HeaderTask.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HeaderTAsk2.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12543</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

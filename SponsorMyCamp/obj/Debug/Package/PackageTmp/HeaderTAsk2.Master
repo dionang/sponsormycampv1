@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HeaderTAsk2.master.cs" Inherits="SponsorMyCamp.HeaderTAsk2" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+<head id="Head1" runat="server">
+<link rel="Stylesheet" href="Styles/Master.css" type="text/css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+</head>
+<body>
+    <script type="text/javascript">
+        $(function () {
+            $('.cssmenu ul a').filter(function () { return this.href == location.href }).parent().addClass('active').siblings().removeClass('active')
+            $('.cssmenu ul  a').click(function () {
+                $(this).parent().addClass('active').siblings().removeClass('active')
+            })
+        })
+	</script>
+    <form id="form1" runat="server">
+    <!-- Header -->
+    <div class="row" id="back">
+        <div class="col-sm-1">
+           <img src="Image/Logo1.png" Width=60px Height=60px style="margin-left:10px;margin-top:20px;" />    
+        </div>
+
+     <!-- Nevigation -->
+     
+    <asp:Panel ID="P1" runat="server" >
+ 
+     <div class="col-md-8" style="width:1030px;">  
+       <div style="font-family: Georgia, arial, serif; font-size: 35px;text-align:center;">Freshman Orientation Camp</div>
+        <div class="cssmenu" style=" width:1030px;margin-left:-20px" >
+            <ul >
+               <li class="active"><a href="HomeTask2.aspx"><img src="Image/home.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Home</a></li>
+               <li><a href="searchTask2.aspx"><img src="Image/search.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Search</a></li>
+               <li><a href="requestTask2.aspx"><img src="Image/request.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Sponsor Request</a></li>
+               <li><a href="contractTask2.aspx"><img src="Image/contract.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Contract</a></li>
+               <li><a href="inboxTask2.aspx"><img src="Image/inbox.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Inbox</a></li>
+                <li><a href="faqTask2.aspx"><img src="Image/faq.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;FAQ</a></li>
+            </ul>
+       </div> 
+      </div>
+         <div class="col-md-2" style="margin-top:15px;margin-left:-20px;"> 
+        <div class="row">
+            <div class="col-md-2">
+               <a href="#"><u><asp:Label ID="Label1" runat="server" style="margin-right:300px;color:white;" >Welcome!&nbsp;Moses</asp:Label></u></a>
+             </div>
+             <div class="col-md-2">
+                 <asp:Button ID="btnLogout2" runat="server" CssClass="logout" Text="Logout" 
+                     onclick="btnLogout2_Click"/>
+                  
+             </div>
+        </div>
+      
+         <div class="row" id="Div1" style="width:200px;margin-right:90px;">
+            <div class="dropdown" style="margin-left:15px;">
+            <button class="btn  dropdown-toggle btn-danger" type="button" data-toggle="dropdown" style="width:200px;">Manage/Add Camp
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><div><label class="camp"><a class="camp" style="width:20px;">Freshmen Orientation Camp </a><a class="edit" href="editCampTask.aspx"><u>Edit</u></a></label></div></li>
+              
+              <li><div><label><asp:Button ID="add2" runat="server" Text="Add New Camp" onclick="add2_Click1" /></label></div></li>
+                
+            </ul>
+      </div>
+         </div>
+     </div>      
+        </asp:Panel>
+        <asp:Panel ID="P2" runat="server">
+ 
+     <div class="col-md-8" style="width:1030px;">  
+       <div style="font-family: Georgia, arial, serif; font-size: 35px;text-align:center;">Freshman Orientation Camp</div>
+        <div class="cssmenu" style=" width:1030px;margin-left:-20px" >
+            <ul >
+               <li class="active"><a href="HomeTask2.aspx"><img src="Image/home.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Home</a></li>
+               <li><a href="searchTask2.aspx"><img src="Image/search.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Search</a></li>
+               <li><a href="requestTask2.aspx"><img src="Image/request.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Sponsor Request</a></li>
+               <li><a href="contractTask2.aspx"><img src="Image/contract.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Contract</a></li>
+               <li><a href="inboxTask2.aspx"><img src="Image/inbox.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;Inbox<img src= "Image/one.png"/ height="20" weight="20"  ></a></li>
+                <li><a href="faqTask2.aspx"><img src="Image/faq.png" style="width:20px;height:20px;margin-top:-5px"/>&nbsp;&nbsp;FAQ</a></li>
+            </ul>
+       </div> 
+      </div>
+         <div class="col-md-2" style="margin-top:15px;margin-left:-20px;"> 
+        <div class="row" >
+            <div class="col-md-2">
+               <a href="#" ><u><asp:Label ID="UserName" runat="server" style="margin-right:300px;color:white;" >Welcome!&nbsp;Moses</asp:Label></u></a>
+             </div>
+             <div class="col-md-2">
+                 <asp:Button ID="btnLogout" runat="server" CssClass="logout" Text="Logout" 
+                     onclick="btnLogout_Click"/>
+                  
+             </div>
+        </div>
+      
+         <div class="row" id="bar" style="width:200px;margin-right:90px;">
+            <div class="dropdown" style="margin-left:15px;">
+            <button class="btn  dropdown-toggle btn-danger" type="button" data-toggle="dropdown" style="width:200px;">Manage/Add Camp
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><div><label class="camp"><a class="camp" style="width:20px;">Freshmen Orientation Camp </a><a class="edit" href="editCampTask.aspx"><u>Edit</u></a></label></div></li>
+              
+              <li><div><label><asp:Button ID="add" runat="server" Text="Add New Camp" onclick="add_Click1" /></label></div></li>
+                
+            </ul>
+      </div>
+         </div>
+     </div>      
+        </asp:Panel>
+    <!-- End navigation Menu -->
+ 
+     </div>
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+   
+    </form>
+</body>
+</html>

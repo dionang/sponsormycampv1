@@ -1,0 +1,123 @@
+﻿body
+{
+    width:1345px;
+}
+.header
+{
+    margin-top:50px;
+    margin-left:70px;
+}
+.header label
+{
+    font-size:25px;
+    color:black;
+    padding:15px 25px 15px 25px;
+    width:160px;
+    text-align:center;
+}
+.header label:hover
+{
+    background-color:#b20712;
+    color:white;
+}
+
+.header input:checked + label
+{
+     background-color:#b20712;
+     color:white;
+}
+
+.header input
+{
+  visibility:hidden;
+}
+
+.content1
+{
+    border:1px solid #DFD6D4;
+    width:450px;
+    height:250px;
+    border-radius:8px;
+    margin-left:80px;
+    margin-top:5px;
+}
+.content2
+{
+    border:1px solid #DFD6D4;
+    width:600px;
+    height:380px;
+    border-radius:8px;
+    margin-left:80px;
+    margin-top:-15px;
+}
+.txt
+{
+    font-size:larger;
+    font-weight:bold;
+    margin-left:35px;
+   
+}
+.box1
+{
+    height:40px;
+    border-radius:6px;
+    margin-top:-10px;
+    
+}
+
+
+.box
+{
+    height:40px;
+    border-radius:6px;
+    margin-top:-10px;
+    width:250px;
+    
+}
+
+/* form */
+ .inner-addon { 
+    position: relative; 
+ 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    margin-top:-10px;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+ .Loginbtn
+ {
+    background-color:#b20712;
+    font-size:large;
+    font-weight:bold;
+    padding:10px 20px 10px 20px;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    margin-left:55px;
+    margin-top:-10px;
+ } 
+  .btnSign
+ {
+    background-color:#b20712;
+    font-size:large;
+    font-weight:bold;
+    padding:10px 20px 10px 20px;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    margin-left:450px;
+    
+ }   

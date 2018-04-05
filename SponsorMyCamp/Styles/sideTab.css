@@ -1,0 +1,134 @@
+﻿body
+{width:1345px;
+}
+
+.type {
+  display: block;
+  margin-top:20px;
+}
+
+.email
+{
+    font-size:x-large;
+    font-weight:bold;
+    display: block;
+    
+    
+}
+.subemail
+{
+    font-size:large;
+    font-weight:bold;
+    display: block;
+    
+    
+}
+
+.email input
+{
+  visibility:hidden;
+}
+.subemail input
+{
+    visibility:hidden;
+}
+
+.email label
+{
+    
+    padding:20px 30px 20px 30px;
+    width:200px;
+    color:White;
+    
+}
+.subemail label
+{
+    padding:15px 25px 0px 25px;
+    width:150px;
+    margin-left:20px;
+    color:white;
+}
+.email label:hover
+{
+    background-color:#fff2f2;
+    color:Black;
+}
+.subemail label:hover
+{
+    
+    padding:5px 25px 0px 25px;
+    color:black;
+}
+
+.email input:checked + label
+{
+    border-left:5px solid #b20712;
+    background-color:#fff2f2;
+    padding:20px 30px 20px 30px;
+    font-weight: bold;
+    border-right:1px solid #C0C0C0;
+    color:Black;
+}
+.subemail input:checked + label
+{
+    background-color:white;
+    color:Black;
+    padding:5px 25px 0px 25px;
+    font-weight: bold;
+   
+}
+
+.mailList  {
+  display: block;
+  margin-top:20px;
+  margin-left:85px;
+}
+.list
+{
+    font-size:large;
+    font-weight:bold;
+    display: block;
+}
+.list input
+{
+  visibility:hidden;
+}
+
+.list label
+{
+    
+    padding:15px 20px 15px 20px;
+    width:180px;
+    
+}
+.list label:hover
+{
+    background-color:white;
+}
+
+.list input:checked + label
+{
+    border-left:5px solid #b20712;
+    border-right:1px solid #C0C0C0;
+    background-color: white;
+    padding:15px 30px 15px 20px;
+    font-weight: bold;
+}
+
+
+.header
+{
+    fonrt-weight:bold;
+    margin-left:100px;
+}
+.createBtn
+{
+  background-color: #b20712;
+  color: white;
+  font-size:large;
+  font-weight:bolder;
+  padding:10px 20px 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #b20712;
+
+}
